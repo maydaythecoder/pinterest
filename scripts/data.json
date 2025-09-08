@@ -1,0 +1,119 @@
+{
+  "pins": [
+    {
+      "id": "pin_001",
+      "title": "Beautiful Mountain Landscape",
+      "description": "Stunning mountain view with snow-capped peaks",
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400",
+      "author": {
+        "id": "user_001",
+        "name": "John Doe",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100"
+      },
+      "tags": ["nature", "mountains", "landscape", "photography"],
+      "likes": 1247,
+      "saves": 89,
+      "createdAt": "2024-01-15T10:30:00Z",
+      "boardId": "board_001"
+    },
+    {
+      "id": "pin_002",
+      "title": "Delicious Homemade Pizza",
+      "description": "Perfect pizza recipe with fresh ingredients",
+      "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
+      "author": {
+        "id": "user_002",
+        "name": "Jane Smith",
+        "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100"
+      },
+      "tags": ["food", "pizza", "recipe", "cooking"],
+      "likes": 892,
+      "saves": 156,
+      "createdAt": "2024-01-14T15:45:00Z",
+      "boardId": "board_002"
+    },
+    {
+      "id": "pin_003",
+      "title": "Modern Interior Design",
+      "description": "Minimalist living room with clean lines",
+      "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400",
+      "author": {
+        "id": "user_003",
+        "name": "Mike Johnson",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100"
+      },
+      "tags": ["interior", "design", "modern", "minimalist"],
+      "likes": 2156,
+      "saves": 234,
+      "createdAt": "2024-01-13T09:20:00Z",
+      "boardId": "board_003"
+    }
+  ],
+  "users": [
+    {
+      "id": "user_001",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100",
+      "followers": 1250,
+      "following": 340,
+      "pins": 45,
+      "boards": 8,
+      "createdAt": "2023-06-15T08:00:00Z"
+    },
+    {
+      "id": "user_002",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100",
+      "followers": 890,
+      "following": 156,
+      "pins": 32,
+      "boards": 6,
+      "createdAt": "2023-08-22T12:30:00Z"
+    },
+    {
+      "id": "user_003",
+      "name": "Mike Johnson",
+      "email": "mike@example.com",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100",
+      "followers": 2100,
+      "following": 420,
+      "pins": 78,
+      "boards": 12,
+      "createdAt": "2023-05-10T14:15:00Z"
+    }
+  ],
+  "boards": [
+    {
+      "id": "board_001",
+      "name": "Nature Photography",
+      "description": "Beautiful landscapes and nature shots",
+      "authorId": "user_001",
+      "pins": ["pin_001"],
+      "followers": 156,
+      "isPrivate": false,
+      "createdAt": "2023-07-01T10:00:00Z"
+    },
+    {
+      "id": "board_002",
+      "name": "Food Recipes",
+      "description": "Delicious recipes and cooking tips",
+      "authorId": "user_002",
+      "pins": ["pin_002"],
+      "followers": 89,
+      "isPrivate": false,
+      "createdAt": "2023-08-15T16:30:00Z"
+    },
+    {
+      "id": "board_003",
+      "name": "Interior Design",
+      "description": "Modern and minimalist home designs",
+      "authorId": "user_003",
+      "pins": ["pin_003"],
+      "followers": 234,
+      "isPrivate": false,
+      "createdAt": "2023-09-05T11:45:00Z"
+    }
+  ]
+}

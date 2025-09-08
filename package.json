@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "migrate-data": "tsx scripts/migrate-data.ts",
-    "migrate-data:js": "node scripts/migrate-data.js"
+    "migrate-data": "tsx scripts/migrate-data.ts"
   },
   "dependencies": {
     "firebase": "^12.2.1",

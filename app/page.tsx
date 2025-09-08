@@ -1,15 +1,14 @@
 "use client";
 
 import React from 'react'
-import Card from './Components/card'
-import Navbar from './Components/Sections/Navbar'
+import Navbar from './Sections/Navbar'
+import Feed from './Sections/Feed'
+
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen bg-gray-50">
       <Navbar />
-      <h1>main content</h1>
-      <h1>footer</h1>
-      <Card />
+      <Feed />
     </div>
   );
 }
